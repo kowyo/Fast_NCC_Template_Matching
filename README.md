@@ -1,1 +1,3 @@
-# Fast NCC Template Matching with Rotation Invarianc
+# Fast NCC Template Matching with Rotation Invariance
+
+This is a simple implementation of normalized cross-correlation (NCC) template matching with rotation invariance. The code is written in C++ and uses OpenCV for image processing.
