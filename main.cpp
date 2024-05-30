@@ -9,7 +9,7 @@ void findBestMatch(Mat &result, Point &bestMatchLoc, double &bestMatchValue);
 
 int main() {
     // 加载图像和模板
-    Mat img = imread("../images/IMAGEB1.bmp", IMREAD_GRAYSCALE);
+    Mat img = imread("../images/IMAGEB2.bmp", IMREAD_GRAYSCALE);
     Mat templ = imread("../images/pattern.bmp", IMREAD_GRAYSCALE);
 
     if (img.empty() || templ.empty()) {
